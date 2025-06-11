@@ -6,8 +6,8 @@ import time
 class MovieRecommender:
     def __init__(self):
         # Built-in API keys
-        self.GEMINI_API_KEY = "AIzaSyDFOnr2M_F8OLogjqxjl31wsriyA7IJ-g0"
-        self.OMDB_API_KEY = "5f0fb394"
+        self.GEMINI_API_KEY = "YOUR API KEY"
+        self.OMDB_API_KEY = "YOUR API KEY"
     
     def get_movie_recommendations(self, user_input):
         """Get 5 movie recommendations based on user input using Gemini AI"""
